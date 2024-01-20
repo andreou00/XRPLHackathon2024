@@ -1,0 +1,46 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret Number Authentication</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>InsurXRP</h1>
+    <script src="web3.min.js"></script>
+    <script src="app.js"></script>
+	
+    <div id="userInteraction">
+        <input type="button" value="Connect Wallet" onclick="connect();">
+
+        <h2>Claim Back XRP (for senders)</h2>
+        <button onclick="claimBackXRP()">Claim Back XRP</button>
+
+        <h2>Claim XRP (for receivers)</h2>
+        <label for="claimSender">Sender Address:</label>
+        <input type="text" id="claimSender" placeholder="Enter Sender Address">
+        <br>
+        <label for="claimSecret">Secret Number:</label>
+        <input type="text" id="claimSecret" placeholder="Enter Secret Number">
+        <br>
+        <button onclick="claimXRP()">Claim XRP</button>
+
+        <h2>Send XRP</h2>
+        <label for="sendReceiver">Receiver Address:</label>
+        <input type="text" id="sendReceiver" placeholder="Enter Receiver Address">
+        <br>
+        <label for="sendSecret">Secret Number:</label>
+        <input type="text" id="sendSecret" placeholder="Enter Secret Number">
+        <br>
+        <label for="sendValue">Value XRP:</label>
+        <input type="text" id="sendValue" placeholder="Enter Value XRP">
+        <br>
+        <button onclick="sendXRP()">Send XRP</button>
+    </div>
+
+
+</body>
+</html>

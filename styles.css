@@ -1,0 +1,56 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('file:///C:/Users/Konstantinos/Desktop/XRPL_hackathon/backgroundPic.jpeg');
+    background-size: cover; /* This property will make the background image cover the entire page */
+    background-position: center; /* Center the background image */
+    font-family: 'Arial', sans-serif; /* Choose a suitable font */
+    color: #000; /* Set text color to white */
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #333; /* Background color for the header */
+}
+
+#contractInfo,
+#userInteraction {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for content */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Drop shadow effect */
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50; /* Green background color */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green color on hover */
+}
